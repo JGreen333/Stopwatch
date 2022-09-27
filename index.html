@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" cont="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>Stopwatch</title>
+  </head>
+  <body class="bg-warning">
+    <section>
+      <!-- Header -->
+      <div class="text-center pt-5">
+        <h1 class="text-white">Stopwatch</h1>
+      </div>
+      <!-- Counter -->
+      <div class="text-center pt-3 h1">
+        <p class="position-absolute-center" id="timer">
+          <span id="seconds">00</span>:<span></span><span id="tens">00</span>
+        </p>
+        <!-- Buttons -->
+        <div class="pt-3">
+          <button
+            id="start"
+            class="btn btn-outline-light btn-lg text-white px-5"
+          >
+            Start
+          </button>
+          <button
+            id="stop"
+            class="btn btn-outline-light btn-lg text-white px-5"
+          >
+            Stop
+          </button>
+          <button
+            id="reset"
+            class="btn btn-outline-light btn-lg text-white px-5"
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
